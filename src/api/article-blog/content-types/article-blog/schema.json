@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "article_blogs",
+  "info": {
+    "singularName": "article-blog",
+    "pluralName": "article-blogs",
+    "displayName": "Article_blog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "img_src": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "author": {
+      "type": "date"
+    },
+    "created_name": {
+      "type": "string"
+    },
+    "article_detail": {
+      "type": "text"
+    }
+  }
+}

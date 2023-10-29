@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "article_home2s",
+  "info": {
+    "singularName": "article-home2",
+    "pluralName": "article-home2s",
+    "displayName": "article_home2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img_src": {
+      "type": "string"
+    },
+    "date_upload": {
+      "type": "date"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gallery_structures",
+  "info": {
+    "singularName": "gallery-structure",
+    "pluralName": "gallery-structures",
+    "displayName": "galleryStructure"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img_src": {
+      "type": "text"
+    }
+  }
+}
